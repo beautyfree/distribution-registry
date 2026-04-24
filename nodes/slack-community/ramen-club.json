@@ -4,12 +4,12 @@
   "type": "slack-community",
   "name": "Ramen Club",
   "url": "https://www.ramenclub.so",
-  "audience_size": 0,
+  "audience_size": 400,
   "topics": ["bootstrapping", "solo-founders", "community"],
-  "post_rules": "Paid community (~$ one-time or yearly). 400+ founders from pre-revenue to $30k+ MRR. Weekly demo days and founder interviews — launches happen in-community, not as drive-by links.",
+  "post_rules": "Paid community (£25/mo or £170 lifetime). 400+ founders from pre-revenue to $30k+ MRR. Weekly demo days and founder interviews — launches happen in-community, not as drive-by links.",
   "post_format": "casual",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Paid Slack community for bootstrapped founders. audience_size ~400 per external reports, unverified."
+  "description": "Paid Slack community for bootstrapped founders. Absorbed Indie Worldwide (indieworldwide.com now 301s here)."
 }

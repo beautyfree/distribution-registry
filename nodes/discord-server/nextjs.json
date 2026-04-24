@@ -3,13 +3,13 @@
   "id": "nextjs",
   "type": "discord-server",
   "name": "Next.js Discord",
-  "url": "https://nextjs.org/discord",
-  "audience_size": 0,
+  "url": "https://discord.com/invite/nextjs",
+  "audience_size": 110000,
   "topics": ["nextjs", "react", "frontend"],
   "post_rules": "Use #showcase to share projects. Be ready to talk about the implementation — questions come fast. Not a place for pure marketing; it's developer-to-developer.",
   "post_format": "casual",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Official Next.js Discord. External reports cite 110K+ members. audience_size unverified."
+  "description": "Official Next.js Discord. Large, technical — questions about your stack come fast."
 }

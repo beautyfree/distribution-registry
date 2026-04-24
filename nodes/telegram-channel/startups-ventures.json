@@ -4,12 +4,12 @@
   "type": "telegram-channel",
   "name": "Startups & Ventures",
   "url": "https://t.me/startupsi",
-  "audience_size": 0,
+  "audience_size": 2900000,
   "topics": ["startups", "venture", "news"],
   "post_rules": "Broadcast channel covering startup news, trends, and insights. Pitch via the admin contact listed on the channel. Funding-announcement or clear-trend angle works best; bare launches rarely make it.",
   "post_format": "no-link",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Global startup news broadcast channel. audience_size unverified."
+  "description": "Global startup news broadcast channel with a massive audience (~2.9M). Funding and trend angles land; bare launches rarely do."
 }

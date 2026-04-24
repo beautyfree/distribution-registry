@@ -4,12 +4,12 @@
   "type": "telegram-chat",
   "name": "AI Builders",
   "url": "https://t.me/aibuilders",
-  "audience_size": 0,
+  "audience_size": 23,
   "topics": ["ai", "llm", "builders", "side-projects"],
   "post_rules": "Share what you're building with LLMs. Self-promo OK if it's a working thing, not just a landing page. No crypto, no 'AI + X' vaporware.",
   "post_format": "casual",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Chat for people shipping AI-powered products. audience_size unverified — set to 0 pending confirmation."
+  "description": "Chat for people shipping AI-powered products. Currently very small (~23 members) — feedback-scale, not reach-scale."
 }

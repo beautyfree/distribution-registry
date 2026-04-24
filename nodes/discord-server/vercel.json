@@ -3,7 +3,7 @@
   "id": "vercel",
   "type": "discord-server",
   "name": "Vercel Community",
-  "url": "https://vercel.com/discord",
+  "url": "https://discord.com/invite/vercel",
   "audience_size": 0,
   "topics": ["nextjs", "vercel", "frontend", "ai-sdk"],
   "post_rules": "Show-and-tell channel for projects built on Vercel/Next.js/AI SDK. Keep self-promo in the dedicated channel — don't cross-post. Technical context (stack, challenge solved) lands better than marketing copy.",
@@ -11,5 +11,5 @@
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Official Vercel Discord. Stable vanity invite. audience_size unverified."
+  "description": "Official Vercel Discord — vanity invite. Best for show-and-tell on Vercel/Next.js/AI SDK stacks."
 }

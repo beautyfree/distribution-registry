@@ -4,12 +4,12 @@
   "type": "subreddit",
   "name": "r/indiehackers",
   "url": "https://www.reddit.com/r/indiehackers/",
-  "audience_size": 0,
+  "audience_size": 150000,
   "topics": ["indie-hackers", "bootstrapping", "side-projects"],
-  "post_rules": "Share what you're building, MRR updates, and post-mortems. Self-promo fine with substance — attach numbers, lessons, or a retro. Pure link drops get removed.",
+  "post_rules": "Share what you're building, MRR updates, post-mortems. Self-promo fine with substance — attach numbers, lessons, or a retro. Pure link drops get removed.",
   "post_format": "manifest",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Reddit subreddit for indie hackers (distinct from indiehackers.com platform). audience_size unverified."
+  "description": "Reddit subreddit for indie hackers (distinct from indiehackers.com platform). Same audience, different posting norms — numbers and retros outperform pure launches."
 }

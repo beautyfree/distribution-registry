@@ -3,13 +3,13 @@
   "id": "indiehackers",
   "type": "telegram-chat",
   "name": "Indie Hackers",
-  "url": "https://t.me/indiehackers",
-  "audience_size": 0,
+  "url": "https://t.me/IndieHackers",
+  "audience_size": 77,
   "topics": ["indie-hackers", "side-projects", "bootstrapping"],
-  "post_rules": "Self-promo allowed but introduce yourself first. No drive-by links. Share what you're building and what you learned, not just the URL.",
+  "post_rules": "Introduce yourself first, then share what you're building. No drive-by links. Small chat — expect a handful of replies, not a traffic spike.",
   "post_format": "casual",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "General-purpose indie hacker chat. audience_size unverified — contributor set to 0 pending confirmation."
+  "description": "General-purpose indie hackers Telegram chat. Tiny community (~77 members) — good for feedback, not for reach."
 }

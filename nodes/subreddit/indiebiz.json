@@ -4,12 +4,12 @@
   "type": "subreddit",
   "name": "r/indiebiz",
   "url": "https://www.reddit.com/r/indiebiz/",
-  "audience_size": 0,
+  "audience_size": 20000,
   "topics": ["indie-business", "bootstrapping", "launches"],
-  "post_rules": "Self-promo allowed — this is one of the few subs that welcomes it. Tell the story behind your product, not just the pitch. Flair your post correctly.",
+  "post_rules": "One of the few subs that openly welcomes self-promo. Tell the story behind your product, not just the pitch. Flair your post correctly or mods will remove.",
   "post_format": "formal",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Small indie-friendly subreddit where launches are welcome. audience_size set to 0 pending verification."
+  "description": "Small indie-friendly subreddit where launches are welcome and flairs matter."
 }

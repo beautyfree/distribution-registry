@@ -4,12 +4,12 @@
   "type": "telegram-chat",
   "name": "Solo Founders",
   "url": "https://t.me/solofounders",
-  "audience_size": 0,
+  "audience_size": 1400,
   "topics": ["solopreneurs", "indie-hackers", "feedback"],
-  "post_rules": "Solopreneur-focused chat. Swap tips, feedback, and pitches allowed if they're tied to a specific question or milestone. No cold link drops.",
+  "post_rules": "Solopreneur-focused chat. Swap tips, feedback, and pitches allowed if tied to a specific question or milestone. No cold link drops.",
   "post_format": "casual",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Solo founders Telegram chat. URL and audience_size both unverified — confirm the t.me handle before relying."
+  "description": "Solo founders Telegram chat. Mid-size, active enough for same-day feedback."
 }

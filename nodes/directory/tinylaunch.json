@@ -3,13 +3,13 @@
   "id": "tinylaunch",
   "type": "directory",
   "name": "Tiny Launch",
-  "url": "https://tinylaun.ch",
-  "audience_size": 0,
+  "url": "https://www.tinylaunch.com",
+  "audience_size": 22000,
   "topics": ["launches", "side-projects", "micro-saas"],
   "post_rules": "Create an account and submit the form — free. Weekly ranking by upvotes. Small audience but easy submission and a dofollow backlink.",
   "post_format": "short-link",
   "language": "en",
   "last_verified_at": "2026-04-24",
   "contributor": "beautyfree",
-  "description": "Lightweight weekly launch board. audience_size unverified. URL may redirect — confirm before relying on traffic."
+  "description": "Lightweight launch board with weekly upvote windows. Small audience (~22k users) but easy submission and a dofollow backlink."
 }

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "trending-apps",
+  "type": "telegram-channel",
+  "name": "Trending Apps",
+  "url": "https://t.me/trendingapps",
+  "audience_size": 4500000,
+  "topics": ["apps", "showcase", "discovery"],
+  "post_rules": "Broadcast-style discovery channel — posts come from admins, not public members. Pitch via the channel admin. One-line description + screenshot/demo is the format.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Huge Telegram channel for app discovery (~4.5M subscribers). Admin-curated — you pitch the editor, you don't post directly."
+}

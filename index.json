@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-24T17:49:38.188Z",
+  "generated_at": "2026-04-24T20:58:10.936Z",
   "schema_version": 1,
-  "count": 40,
+  "count": 36,
   "nodes": [
     "nodes/directory/alternativeto.json",
     "nodes/directory/betalist.json",
@@ -19,7 +19,6 @@
     "nodes/discord-server/indiehackers-discord.json",
     "nodes/discord-server/nextjs.json",
     "nodes/discord-server/vercel.json",
-    "nodes/slack-community/indie-worldwide.json",
     "nodes/slack-community/ramen-club.json",
     "nodes/subreddit/alphaandbetausers.json",
     "nodes/subreddit/artificial.json",
@@ -35,13 +34,10 @@
     "nodes/subreddit/sideproject.json",
     "nodes/telegram-channel/deeplearning-ai.json",
     "nodes/telegram-channel/startups-ventures.json",
+    "nodes/telegram-channel/trending-apps.json",
     "nodes/telegram-chat/ai-builders.json",
-    "nodes/telegram-chat/claude-code.json",
     "nodes/telegram-chat/indiehackers.json",
-    "nodes/telegram-chat/product-hunt-founders.json",
     "nodes/telegram-chat/solo-founders.json",
-    "nodes/telegram-chat/startups-ru.json",
-    "nodes/telegram-chat/trending-apps.json",
     "nodes/telegram-chat/wipchat.json"
   ]
 }

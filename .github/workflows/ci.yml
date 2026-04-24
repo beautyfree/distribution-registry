@@ -28,9 +28,40 @@ jobs:
       - name: Run tests
         run: bun test tests/
 
+  publish-index:
+    name: publish index.json
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Install script deps
+        working-directory: scripts
+        run: bun install --frozen-lockfile || bun install
+      - name: Regenerate index.json (no fetch — already validated)
+        run: bun run scripts/validate.ts --no-fetch
+      - name: Commit if index.json changed
+        run: |
+          if git diff --quiet index.json; then
+            echo "index.json unchanged."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add index.json
+            git commit -m "chore: regenerate index.json [skip ci]"
+            git push
+          fi
+
   deploy-hook:
     name: notify reader app
-    needs: validate
+    needs: publish-index
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:

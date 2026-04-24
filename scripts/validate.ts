@@ -12,7 +12,7 @@
 
 import Ajv, { type ErrorObject } from "ajv";
 import addFormats from "ajv-formats";
-import { readdir, readFile } from "node:fs/promises";
+import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join, dirname, basename, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -225,12 +225,34 @@ export async function validateAll(opts: { fetch: boolean } = { fetch: true }): P
     await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
   }
 
-  return { failures, warnings, nodeCount: parsed.length };
+  return { failures, warnings, nodeCount: parsed.length, parsed };
+}
+
+/**
+ * Generate index.json at repo root listing every valid node path.
+ * Reader app fetches this to discover nodes without GitHub API quota.
+ */
+export async function writeIndex(parsed: { file: string; node: Node }[]): Promise<string> {
+  const paths = parsed.map((p) => p.file).sort();
+  const indexPath = join(ROOT, "index.json");
+  const body = JSON.stringify(
+    {
+      generated_at: new Date().toISOString(),
+      schema_version: 1,
+      count: paths.length,
+      nodes: paths,
+    },
+    null,
+    2,
+  ) + "\n";
+  await writeFile(indexPath, body, "utf8");
+  return indexPath;
 }
 
 async function main() {
   const doFetch = !process.argv.includes("--no-fetch");
-  const { failures, warnings, nodeCount } = await validateAll({ fetch: doFetch });
+  const writeManifest = !process.argv.includes("--no-index");
+  const { failures, warnings, nodeCount, parsed } = await validateAll({ fetch: doFetch });
 
   for (const w of warnings) {
     console.error(`WARN  ${w}`);
@@ -248,6 +270,10 @@ async function main() {
   console.log(`OK    ${nodeCount} node(s) valid${doFetch ? " (schema + reachability)" : " (schema only)"}.`);
   if (warnings.length > 0) {
     console.log(`      ${warnings.length} soft warning(s) — see above.`);
+  }
+  if (writeManifest && parsed.length > 0) {
+    const indexPath = await writeIndex(parsed);
+    console.log(`OK    wrote ${relative(ROOT, indexPath)} (${parsed.length} entries)`);
   }
 }
 

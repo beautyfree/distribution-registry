@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "imadethis",
+  "type": "subreddit",
+  "name": "r/IMadeThis",
+  "url": "https://www.reddit.com/r/IMadeThis/",
+  "audience_size": 0,
+  "topics": ["showcase", "side-projects", "makers"],
+  "post_rules": "Built for 'I made this' posts. Show a screenshot or video, explain what it does in one line, link in comments or post body. Low-effort title-only posts get removed.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Showcase-first subreddit friendly to launches. audience_size unverified."
+}

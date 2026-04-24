@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "devto",
+  "type": "directory",
+  "name": "DEV Community",
+  "url": "https://dev.to",
+  "audience_size": 0,
+  "topics": ["developers", "technical-writing", "launches"],
+  "post_rules": "Write a technical article about how you built it, what you learned, the stack. Tag with #showdev, #indiehacker, #ai. Bare product announcements flop — teardown-style posts land. Add a canonical URL if cross-posting.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Developer blogging platform. Launch via technical teardowns, not announcements. audience_size unverified."
+}

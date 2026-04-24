@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "hacker-news-show",
+  "type": "directory",
+  "name": "Hacker News — Show HN",
+  "url": "https://news.ycombinator.com/show",
+  "audience_size": 0,
+  "topics": ["developers", "startups", "launches", "technical"],
+  "post_rules": "Title starts with 'Show HN:'. Put your URL in the URL field, leave text blank. Drop marketing language — factual and direct. First comment: backstory and what's different. Has to be something people can actually try, not a landing page or waitlist.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "The technical launch bar. Huge audience but brutal — marketing tone gets flagged. audience_size unverified (HN doesn't publish it)."
+}

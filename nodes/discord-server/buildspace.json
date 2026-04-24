@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "buildspace",
+  "type": "discord-server",
+  "name": "Buildspace",
+  "url": "https://discord.com/invite/buildspace",
+  "audience_size": 0,
+  "topics": ["builders", "ai", "startups", "side-projects"],
+  "post_rules": "Post in the demo/show channels. Community skews toward builders in Buildspace cohorts (nw, s3, s4…). Introduce yourself first; drive-by link drops get ignored.",
+  "post_format": "casual",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Large builder-focused Discord (reports of 60K+ members). audience_size unverified; invite link may rotate."
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "localllama",
+  "type": "subreddit",
+  "name": "r/LocalLLaMA",
+  "url": "https://www.reddit.com/r/LocalLLaMA/",
+  "audience_size": 0,
+  "topics": ["llm", "local-ai", "open-source", "inference"],
+  "post_rules": "Self-promo capped at ~10% of your activity. Must be LLM/Llama-related. No sensationalized titles. Tools, benchmarks, and fine-tuning posts land well; pure SaaS pitches get downvoted.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Top community for local/open-source LLM work. audience_size unverified — reports suggest hundreds of thousands."
+}

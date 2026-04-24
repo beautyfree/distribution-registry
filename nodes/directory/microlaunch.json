@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "microlaunch",
+  "type": "directory",
+  "name": "MicroLaunch",
+  "url": "https://microlaunch.net",
+  "audience_size": 0,
+  "topics": ["launches", "makers", "micro-saas"],
+  "post_rules": "Submit via the site form — free. Community upvoting over a ~month-long window (longer tail than daily boards). Good for feedback and first sales, not viral spikes.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Launch board with a ~month exposure window. audience_size unverified."
+}

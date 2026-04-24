@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "deeplearning-ai",
+  "type": "telegram-channel",
+  "name": "AI & Deep Learning",
+  "url": "https://t.me/DeepLearning_ai",
+  "audience_size": 0,
+  "topics": ["ai", "deep-learning", "news"],
+  "post_rules": "Broadcast channel — no public posting. Reach the editor via the channel bio to pitch coverage. Best for AI tool launches with a technical angle (new model, API, benchmark).",
+  "post_format": "no-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Broadcast Telegram channel on AI/DL for devs. audience_size unverified."
+}

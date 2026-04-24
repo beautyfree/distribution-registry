@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "alternativeto",
+  "type": "directory",
+  "name": "AlternativeTo",
+  "url": "https://alternativeto.net",
+  "audience_size": 0,
+  "topics": ["alternatives", "software-directory", "seo"],
+  "post_rules": "Submit your product via 'Add new app'. List it as an alternative to established tools in your space — that's where the SEO value lives. Moderated; bad listings get rejected. Long-tail discovery, not launch-day traffic.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Software alternatives directory. Compounding SEO channel. audience_size unverified."
+}

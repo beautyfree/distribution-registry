@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "artificial",
+  "type": "subreddit",
+  "name": "r/artificial",
+  "url": "https://www.reddit.com/r/artificial/",
+  "audience_size": 0,
+  "topics": ["ai", "news", "discussion"],
+  "post_rules": "Loose moderation. AI news, demos, and discussion all welcome. Pure promo still gets downvoted — frame as 'built this with GPT-4' or 'demo of X capability' rather than a pitch.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Large general AI subreddit (1M+ members per external reports). audience_size unverified."
+}

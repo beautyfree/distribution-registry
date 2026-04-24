@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "fazier",
+  "type": "directory",
+  "name": "Fazier",
+  "url": "https://fazier.com",
+  "audience_size": 0,
+  "topics": ["launches", "startups", "saas"],
+  "post_rules": "Free to launch. Upvote and comment on at least 2 other projects before you unlock submission. Daily/weekly rankings by upvotes. Good for a small traffic spike and a backlink.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Product Hunt alternative with a pay-it-forward gate. audience_size unverified."
+}

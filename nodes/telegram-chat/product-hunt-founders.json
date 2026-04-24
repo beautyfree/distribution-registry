@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "product-hunt-founders",
+  "type": "telegram-chat",
+  "name": "Product Hunt Founders",
+  "url": "https://t.me/producthuntfounders",
+  "audience_size": 0,
+  "topics": ["product-hunt", "launches", "founders"],
+  "post_rules": "Chat for founders prepping and running PH launches. Share your launch day for support, ask about hunter intros, debrief post-launch. Upvote begging is tolerated here (it's the point) but reciprocate.",
+  "post_format": "casual",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "PH launch-support Telegram chat. URL and audience_size unverified — confirm handle before citing."
+}

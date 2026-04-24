@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "saas",
+  "type": "subreddit",
+  "name": "r/SaaS",
+  "url": "https://www.reddit.com/r/SaaS/",
+  "audience_size": 0,
+  "topics": ["saas", "startups", "indie-hackers"],
+  "post_rules": "Self-promo tolerated when wrapped in a lesson or milestone — 'what I learned going from 0 to 100 users' beats 'check out my app'. Flair correctly or mods remove. Don't just drop a link.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Large SaaS-focused subreddit. audience_size unverified — post context-rich stories, not bare links."
+}

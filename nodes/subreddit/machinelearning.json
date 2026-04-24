@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "machinelearning",
+  "type": "subreddit",
+  "name": "r/MachineLearning",
+  "url": "https://www.reddit.com/r/MachineLearning/",
+  "audience_size": 0,
+  "topics": ["machine-learning", "research", "ai"],
+  "post_rules": "Tag your post: [P] for project, [D] for discussion, [R] for research. Self-promo restricted to the weekly Self-Promotion Thread — don't post product launches as top-level submissions or mods will remove them.",
+  "post_format": "formal",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Research-heavy ML subreddit. Strict promo rules — use the weekly thread. audience_size unverified."
+}

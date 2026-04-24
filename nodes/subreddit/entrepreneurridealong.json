@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "entrepreneurridealong",
+  "type": "subreddit",
+  "name": "r/EntrepreneurRideAlong",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/",
+  "audience_size": 0,
+  "topics": ["entrepreneurship", "bootstrapping", "building-in-public"],
+  "post_rules": "Self-promo with community value only — share the journey, not just the link. No newsletter plugs, no affiliate links. 'Ride along' as you grow; updates welcome.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Entrepreneurship subreddit that tolerates self-promo if framed as a journey. audience_size unverified."
+}

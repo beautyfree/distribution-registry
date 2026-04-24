@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "microsaas",
+  "type": "subreddit",
+  "name": "r/microsaas",
+  "url": "https://www.reddit.com/r/microsaas/",
+  "audience_size": 0,
+  "topics": ["micro-saas", "bootstrapping", "solo-founders"],
+  "post_rules": "Smaller and higher signal than r/SaaS. Real revenue stories and teardowns get traction; pure launches with no numbers often flop. Share MRR, stack, what's working.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Community for small, profitable SaaS. audience_size unverified but reports suggest ~28K."
+}

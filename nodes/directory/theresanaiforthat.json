@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "theresanaiforthat",
+  "type": "directory",
+  "name": "There's An AI For That",
+  "url": "https://theresanaiforthat.com",
+  "audience_size": 0,
+  "topics": ["ai-tools", "directory", "launches"],
+  "post_rules": "Paid submission (~$300 last reported). Category selection matters — tool is indexed by task. Huge traffic (reports of millions of monthly visits) and the #1 AI newsletter. Worth it only for AI-first products with revenue to recoup.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Largest AI-tool directory (TAAFT). Paid listing. audience_size unverified; external reports cite 3-4M monthly visits."
+}

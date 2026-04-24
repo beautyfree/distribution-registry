@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "saashub",
+  "type": "directory",
+  "name": "SaaSHub",
+  "url": "https://www.saashub.com",
+  "audience_size": 0,
+  "topics": ["saas", "alternatives", "directory"],
+  "post_rules": "Submit your SaaS via the 'Add a product' form. Free listing with a dofollow link. Main value is SEO (ranks for 'X alternatives' queries), not launch-day traffic. Fill out features and comparisons thoroughly.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "SaaS directory focused on 'alternatives to X' discovery. audience_size unverified."
+}

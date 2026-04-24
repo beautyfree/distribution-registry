@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "uneed",
+  "type": "directory",
+  "name": "Uneed",
+  "url": "https://www.uneed.best",
+  "audience_size": 0,
+  "topics": ["launches", "ai-tools", "saas"],
+  "post_rules": "Daily 24-hour launch competition with 8-15 products. Products go live at 12:00 AM PST. Free entry sits in the queue; $30-40 skip-the-line lets you pick your date. Promote your launch page to win the day.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Product Hunt alternative positioned as bot-free and fair. audience_size unverified."
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "wipchat",
+  "type": "telegram-chat",
+  "name": "WIP (Work In Progress)",
+  "url": "https://t.me/wipchat",
+  "audience_size": 0,
+  "topics": ["makers", "building-in-public", "accountability"],
+  "post_rules": "Makers posting daily todos and shipping updates. Share what you shipped today, not a pitch. Paid WIP membership is the main channel; t.me/wipchat is the public satellite — keep launches tied to a 'what I shipped' story.",
+  "post_format": "casual",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Public WIP Telegram chat. Main community is behind wip.co membership. audience_size unverified (reports ~800)."
+}

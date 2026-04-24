@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "indiehackers-discord",
+  "type": "discord-server",
+  "name": "Indie Hackers (community Discord)",
+  "url": "https://discord.com/invite/sSHq2rAz",
+  "audience_size": 0,
+  "topics": ["indie-hackers", "bootstrapping", "co-founders"],
+  "post_rules": "Community-run (not official IH). Channels split by stage — idea / validating / launched / growing / scaling. Post in the stage channel that matches you. Co-founder matching channel exists.",
+  "post_format": "casual",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Community Discord for indie hackers — note: NOT operated by indiehackers.com, which has no official Discord. Invite stability unverified; re-check before citing."
+}

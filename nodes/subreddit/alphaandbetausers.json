@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "alphaandbetausers",
+  "type": "subreddit",
+  "name": "r/AlphaAndBetaUsers",
+  "url": "https://www.reddit.com/r/AlphaandBetaUsers/",
+  "audience_size": 0,
+  "topics": ["beta-testing", "early-users", "feedback"],
+  "post_rules": "Purpose-built for recruiting beta testers. State what your product does, what platform, what you need testers to do, and what's in it for them. Links welcome.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Find alpha/beta testers. audience_size unverified."
+}

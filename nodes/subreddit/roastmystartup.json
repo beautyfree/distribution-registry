@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "roastmystartup",
+  "type": "subreddit",
+  "name": "r/roastmystartup",
+  "url": "https://www.reddit.com/r/roastmystartup/",
+  "audience_size": 0,
+  "topics": ["feedback", "startups", "landing-page-critique"],
+  "post_rules": "Drop your landing page and ask for brutal feedback. Expect savage critique — thin skin unwelcome. Roast one other startup per post you make, or you'll be ignored.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "Harsh-feedback subreddit. audience_size unverified."
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "peerlist",
+  "type": "directory",
+  "name": "Peerlist Launchpad",
+  "url": "https://peerlist.io/launchpad",
+  "audience_size": 0,
+  "topics": ["launches", "makers", "professional"],
+  "post_rules": "Weekly Launchpad every Monday. Free. Submit through your Peerlist profile — product stays live for the week with community upvoting. Quality bar is higher than most launch boards.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "beautyfree",
+  "description": "LinkedIn-alternative for tech pros with a weekly launch section. audience_size unverified."
+}

@@ -1,0 +1,49 @@
+name: ci
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    name: validate + test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install script deps
+        working-directory: scripts
+        run: bun install --frozen-lockfile || bun install
+
+      - name: Run schema + reachability validation
+        run: bun run scripts/validate.ts
+
+      - name: Run tests
+        run: bun test tests/
+
+  deploy-hook:
+    name: notify reader app
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST deploy hook
+        env:
+          HOOK_URL: ${{ secrets.REGISTRY_DEPLOY_HOOK }}
+        run: |
+          if [ -z "${HOOK_URL}" ]; then
+            echo "REGISTRY_DEPLOY_HOOK secret not set — skipping."
+            exit 0
+          fi
+          curl -fsSL -X POST "${HOOK_URL}" \
+            -H "Content-Type: application/json" \
+            -d '{"source":"distribution-registry","commit":"${{ github.sha }}"}' \
+          && echo "Deploy hook fired." \
+          || (echo "Deploy hook failed."; exit 1)

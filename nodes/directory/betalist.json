@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "betalist",
+  "type": "directory",
+  "name": "BetaList",
+  "url": "https://betalist.com",
+  "audience_size": 0,
+  "topics": ["launches", "pre-launch", "startups", "early-access"],
+  "post_rules": "Submit early — BetaList is for pre-launch and early-beta products. Free submission is slow (weeks); paid submission is same-day. Keep the pitch under 140 chars.",
+  "post_format": "short-link",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "devall",
+  "description": "Pre-launch directory with a weekly newsletter. audience_size set to 0 pending verification."
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "producthunt",
+  "type": "directory",
+  "name": "Product Hunt",
+  "url": "https://www.producthunt.com",
+  "audience_size": 5000000,
+  "topics": ["launches", "startups", "side-projects", "makers"],
+  "post_rules": "Schedule your launch 24h ahead. Use a clear tagline, 3-5 gallery images, a 60-second demo if possible. Reply to every comment on launch day. Don't beg for upvotes — PH penalizes it.",
+  "post_format": "manifest",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "devall",
+  "description": "The big one. Conservative audience_size estimate (registered users, not DAU)."
+}

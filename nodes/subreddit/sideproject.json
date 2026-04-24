@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "sideproject",
+  "type": "subreddit",
+  "name": "r/SideProject",
+  "url": "https://www.reddit.com/r/SideProject/",
+  "audience_size": 220000,
+  "topics": ["side-projects", "indie-hackers", "showcase"],
+  "post_rules": "Show your project with a screenshot or demo. Describe what it does, what you learned, and what's next. Don't just drop a link — mods remove low-effort posts.",
+  "post_format": "formal",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "devall",
+  "description": "Reddit's main community for launching and sharing side-projects. audience_size is a conservative rounded estimate; verify before citing."
+}

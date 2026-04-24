@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "indiebiz",
+  "type": "subreddit",
+  "name": "r/indiebiz",
+  "url": "https://www.reddit.com/r/indiebiz/",
+  "audience_size": 0,
+  "topics": ["indie-business", "bootstrapping", "launches"],
+  "post_rules": "Self-promo allowed — this is one of the few subs that welcomes it. Tell the story behind your product, not just the pitch. Flair your post correctly.",
+  "post_format": "formal",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "devall",
+  "description": "Small indie-friendly subreddit where launches are welcome. audience_size set to 0 pending verification."
+}

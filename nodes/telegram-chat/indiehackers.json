@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "indiehackers",
+  "type": "telegram-chat",
+  "name": "Indie Hackers",
+  "url": "https://t.me/indiehackers",
+  "audience_size": 0,
+  "topics": ["indie-hackers", "side-projects", "bootstrapping"],
+  "post_rules": "Self-promo allowed but introduce yourself first. No drive-by links. Share what you're building and what you learned, not just the URL.",
+  "post_format": "casual",
+  "language": "en",
+  "last_verified_at": "2026-04-24",
+  "contributor": "devall",
+  "description": "General-purpose indie hacker chat. audience_size unverified — contributor set to 0 pending confirmation."
+}

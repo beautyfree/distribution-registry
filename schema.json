@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/devall/distribution-registry/schema.json",
+  "$id": "https://github.com/beautyfree/distribution-registry/schema.json",
   "title": "Distribution Registry Node",
   "description": "A single community node — a place where AI builders post side-projects.",
   "type": "object",

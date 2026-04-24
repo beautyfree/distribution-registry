@@ -61,6 +61,30 @@ bun run validate.ts
 bun test ../tests/
 ```
 
+## Duplicates
+
+Every PR runs a `dedup` job that compares your changed nodes against the
+existing registry using three signals:
+
+- **URL (normalized)** — protocol, `www`, and trailing slashes stripped, then
+  lowercased. An exact match is a **hard block**: the job fails and your PR
+  can't merge until the duplicate is resolved.
+- **Name similarity** — Levenshtein distance over the lowercased name. Above
+  0.8 similarity, you'll get a soft warning.
+- **Topic overlap** — Jaccard similarity on the `topics` array, only when the
+  types match. Above 0.7, you'll get a soft warning.
+
+Soft warnings are advisory — the bot posts a comment on the PR, but the job
+still passes. A human reviewer decides whether `r/SideProject` and
+"SideProject subreddit" are the same thing (they are) or just happen to
+share tokens (they don't, usually).
+
+You can run the check locally before opening the PR:
+
+```bash
+bun run scripts/dedup-check.ts nodes/subreddit/my-new-node.json
+```
+
 ## Removing a node
 
 Open a PR deleting the file. In the PR description, state why (chat closed, mod request, etc.). No drama, no debate.

@@ -28,6 +28,84 @@ jobs:
       - name: Run tests
         run: bun test tests/
 
+  dedup:
+    name: duplicate check (PRs only)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install script deps
+        working-directory: scripts
+        run: bun install --frozen-lockfile || bun install
+
+      - name: Collect changed node files
+        id: changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          # Prefer gh pr diff (handles forks + renames cleanly); fall back to
+          # git diff against origin/main if the gh call fails for any reason.
+          if files=$(gh pr diff "$PR_NUMBER" --name-only 2>/dev/null); then
+            :
+          else
+            git fetch origin main --depth=1 || true
+            files=$(git diff --name-only origin/main...HEAD)
+          fi
+          # Only care about JSON files under nodes/
+          filtered=$(printf '%s\n' "$files" | grep -E '^nodes/.*\.json$' || true)
+          {
+            echo "files<<EOF"
+            echo "$filtered"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Changed node files:"
+          echo "$filtered"
+
+      - name: Run dedup check
+        id: dedup
+        run: |
+          set -euo pipefail
+          files="${{ steps.changed.outputs.files }}"
+          if [ -z "$files" ]; then
+            echo "OK    no node files changed — skipping dedup." | tee dedup.out
+            exit 0
+          fi
+          # Run dedup-check; non-zero exit means a hard (URL-exact) duplicate.
+          if ! bun run scripts/dedup-check.ts $files > dedup.out 2>&1; then
+            echo "hard_fail=1" >> "$GITHUB_OUTPUT"
+          fi
+          cat dedup.out
+
+      - name: Post dedup report as PR comment
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          if [ ! -s dedup.out ]; then exit 0; fi
+          body=$(printf '### Dedup check\n\n```\n%s\n```\n' "$(cat dedup.out)")
+          gh pr comment "$PR_NUMBER" --body "$body" || true
+
+      - name: Fail the job on hard duplicates
+        if: steps.dedup.outputs.hard_fail == '1'
+        run: |
+          echo "Hard duplicate detected — see dedup report above."
+          exit 1
+
   publish-index:
     name: publish index.json
     needs: validate
